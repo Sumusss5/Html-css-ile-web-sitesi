@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>OYAP Mimarlık Ve Mühendislik</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .working-hours {
+            text-align: center;
+            margin-top: 50px;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        th, td {
+            border: 3px solid gray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">OYAP</span> Mimarlik & Mühendislik</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Anasayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="services.html">Hizmetlerimiz</a></li>
+                    <li><a href="projects.html">Projelerimiz</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Bizimle İletişime Geçin</h1>
+            <ul style="text-align:right; list-style:none;">
+                <li>Cep Telefonu: +90 500 000 00 00</li>
+                <li>Ev Telefonu: +90 212 000 00 00</li>
+                <li>E-posta: oyap@gmail.com</li>
+            </ul>
+        </div>
+    </section>
+    <!--İletişim ve Çalışma Saatleri Bölümü-->
+    <section id="main">
+        <div class="container">
+            <div class="dark">
+                <h2 style="text-align:center;">Bilgi Al</h2>
+                <form class="quote" style="font-size:20px; text-align:center;">
+                    <div>
+                        <label>İsim</label><br>
+                        <input type="text" placeholder="İsim" style="font-size:x-large;">
+                    </div>
+                    <div>
+                        <label>Mail</label><br>
+                        <input type="email" placeholder="Mail" style="font-size:x-large;">
+                    </div>
+                    <div>
+                        <label>Mesaj</label><br>
+                        <textarea placeholder="Mesaj" style="font-size:x-large;"></textarea>
+                    </div>
+                    <button class="button_1" type="submit" style="font-size:x-large;">Gönder</button>
+                </form>
+                <div class="working-hours">
+                    <h2>Çalışma Saatleri</h2>
+                    <table>
+                        <tr class="weekday">
+                            <td>Pazartesi - Cuma</td>
+                            <td>09:00 - 17:00</td>
+                        </tr>
+                        <tr class="weekend">
+                            <td>Cumartesi</td>
+                            <td>09:00 - 12:00</td>
+                        </tr>
+                        <tr class="weekend">
+                            <td>Pazar</td>
+                            <td>Kapalı</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Oyap Mimarlık ve Mühendislik</p>
+    </footer>
+</body>
+</html>
